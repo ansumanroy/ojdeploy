@@ -1,0 +1,37 @@
+group 'com.ansuman.gradle.plugins.impl'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories { flatDir name: 'libs', dirs: "../buildSrc/build/libs" }
+    //dependencies { classpath 'com.ansuman.gradle.plugins:greet-plugin:1.0' }
+}
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'ojdeploy-plugin'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+
+ojdeploy{
+    inputs.dir sourceSets.main.java.srcDirs
+    outputs.dir buildDir
+    oraclehome="/Users/ansumanroy/Oracle/Middleware/jdeveloper"
+    workspace = "/Users/ansumanroy/jdeveloper/mywork/com.ansuman.uitester/com.ansuman.uitester.jws"
+    projectName = "com.ansuman.uitester.view"
+    profile = "adflibCom11"
+    outputfile="${buildDir}/libs/${project.group}-${version}.jar"
+
+    doLast{
+        println 'Hello World from the do last method'
+    }
+}

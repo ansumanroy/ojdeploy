@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ojdeploy.iml" filepath="$PROJECT_DIR$/.idea/modules/ojdeploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ojdeploy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ojdeploy_main.iml" group="ojdeploy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ojdeploy_main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/ojdeploy_main~1.iml" group="ojdeploy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ojdeploy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ojdeploy_test.iml" group="ojdeploy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ojdeploy_test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/ojdeploy_test~1.iml" group="ojdeploy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ojdeploy~1.iml" filepath="$PROJECT_DIR$/.idea/modules/ojdeploy~1.iml" />
+    </modules>
+  </component>
+</project>
