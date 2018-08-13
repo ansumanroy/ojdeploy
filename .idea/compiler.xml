@@ -12,6 +12,8 @@
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
     <bytecodeTargetLevel>
+      <module name="ojdeploy-plugin_main" target="1.7" />
+      <module name="ojdeploy-plugin_test" target="1.7" />
       <module name="ojdeploy_main" target="1.8" />
       <module name="ojdeploy_main~1" target="1.7" />
       <module name="ojdeploy_test" target="1.8" />

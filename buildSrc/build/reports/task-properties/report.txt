@@ -1,0 +1,8 @@
+Warning: Task type 'com.ansuman.gradle.plugin.ojdeploy.OJDeploy': property 'currentWorkingDirectory' is not annotated with an input or output annotation.
+Warning: Task type 'com.ansuman.gradle.plugin.ojdeploy.OJDeploy': property 'message' is not annotated with an input or output annotation.
+Warning: Task type 'com.ansuman.gradle.plugin.ojdeploy.OJDeploy': property 'oraclehome' is not annotated with an input or output annotation.
+Warning: Task type 'com.ansuman.gradle.plugin.ojdeploy.OJDeploy': property 'outputfile' is not annotated with an input or output annotation.
+Warning: Task type 'com.ansuman.gradle.plugin.ojdeploy.OJDeploy': property 'profile' is not annotated with an input or output annotation.
+Warning: Task type 'com.ansuman.gradle.plugin.ojdeploy.OJDeploy': property 'projectName' is not annotated with an input or output annotation.
+Warning: Task type 'com.ansuman.gradle.plugin.ojdeploy.OJDeploy': property 'recipient' is not annotated with an input or output annotation.
+Warning: Task type 'com.ansuman.gradle.plugin.ojdeploy.OJDeploy': property 'workspace' is not annotated with an input or output annotation.
