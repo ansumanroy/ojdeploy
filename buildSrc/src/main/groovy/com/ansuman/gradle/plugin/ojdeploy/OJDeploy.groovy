@@ -82,8 +82,10 @@ public class OJDeploy extends Jar {
         def oracle_home=oraclehome
         def ojdeployExecutable=oracle_home+"/jdev/bin/ojdeploy "
 
+        if(Os.isFamily(Os.FAMILY_WINDOWS && Os.isArch("x86_64"))){
+            ojdeployExecutable=oracle_home+"/jdev/bin/ojdeploy64.exe "
 
-        if(Os.isFamily(Os.FAMILY_WINDOWS)){
+        }else if(Os.isFamily(Os.FAMILY_WINDOWS) ){
             ojdeployExecutable=oracle_home+"/jdev/bin/ojdeploy.exe "
         }
 
